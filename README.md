@@ -16,9 +16,13 @@ cd ../
 ```
 
 ## Turn Data into h5
-`./run_preprocess.sh`
+```
+./run_preprocess.sh
+```
 
 ## Train
-`./run.sh`
+```
+./run.sh
+```
 
 ## Visualize?
