@@ -3,13 +3,20 @@
 Pytorch implementation.
 
 ### Install
-`./install.sh`
+```
+./install.sh
+source activate attn2d_env
+```
 
 ### Download Data
-`cd dataprep; ./prepareData.sh`
+```
+cd dataprep
+./prepareData.sh
+cd ../
+```
 
 ## Turn Data into h5
-`./runpreprocess.sh`
+`./run_preprocess.sh`
 
 ## Train
 `./run.sh`
