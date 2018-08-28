@@ -94,9 +94,9 @@ def main_trg(params, train_order, val_order, test_order, vocab=None):
     Main preprocessing
     """
     max_length = params.max_length
-    train_trg = 'data/%s/train.%s' % (params.data_dir, params.trg)
-    val_trg = 'data/%s/valid.%s' % (params.data_dir, params.trg)
-    test_trg = 'data/%s/test.%s' % (params.data_dir, params.trg)
+    train_trg = 'data/%s/train.de-en.%s' % (params.data_dir, params.trg)
+    val_trg = 'data/%s/valid.de-en.%s' % (params.data_dir, params.trg)
+    test_trg = 'data/%s/test.de-en.%s' % (params.data_dir, params.trg)
     with open(train_trg, 'r') as f:
         sentences = f.readlines()
         sentences = [sent.strip().split()[:max_length] for sent in sentences]
@@ -176,9 +176,9 @@ def main_src(params):
     Main preprocessing
     """
     max_length = params.max_length
-    train_src = 'data/%s/train.%s' % (params.data_dir, params.src)
-    val_src = 'data/%s/valid.%s' % (params.data_dir, params.src)
-    test_src = 'data/%s/test.%s' % (params.data_dir, params.src)
+    train_src = 'data/%s/train.de-en.%s' % (params.data_dir, params.src)
+    val_src = 'data/%s/valid.de-en.%s' % (params.data_dir, params.src)
+    test_src = 'data/%s/test.de-en.%s' % (params.data_dir, params.src)
     batch_size = 32
     with open(train_src, 'r') as f:
         sentences = f.readlines()
