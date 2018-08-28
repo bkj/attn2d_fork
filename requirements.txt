@@ -1,8 +1,6 @@
 certifi==2018.8.24
 cffi==1.11.5
 h5py==2.8.0
-mkl-fft==1.0.4
-mkl-random==1.0.1
 numpy==1.15.1
 olefile==0.45.1
 Pillow==5.2.0

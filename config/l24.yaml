@@ -20,8 +20,8 @@ data:
   trg : en
   dir : data/IWSLT14
   batch_size: 16
-  max_src_length : 90
-  max_trg_length : 90
+  max_src_length : 50
+  max_trg_length : 50
 
 
 track: 
