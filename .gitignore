@@ -1,1 +1,6 @@
 *pyc
+data/*
+dataprep/mosesdecoder/*
+dataprep/orig/*
+events/*
+save/*
